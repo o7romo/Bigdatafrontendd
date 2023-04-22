@@ -30,14 +30,17 @@
     
     
         <div class="card mx-auto" style="width: 50%; padding: 2%;">
-        <label for="cars">Choose a file:</label>
-
-        <select name="cars" id="cars">
-          <option value="file1">file1</option>
-          <option value="file2">file2</option>
-          <option value="file3">file3</option>
-          <option value="file4">file4</option>
-        </select>
+            <div class="dropdown show">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Choose a file
+                </a>
+              
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
 
         <br>
 
