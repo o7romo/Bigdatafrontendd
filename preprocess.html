@@ -27,24 +27,52 @@
         </header>
     
     
-        <div class="card mx-auto rounded shadow-sm border-0" style="width: 50%; padding: 2%;">
-            <div class="dropdown show">
-                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Choose a file
-                </a>
-              
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
+        <div class="card mx-auto" style="width: 50%; padding: 2%; border: none;">
+
+            <div class="row">
+                <div class="col-sm-6">
+                  <div class="card rounded shadow-sm border-0">
+                    <div class="card-body">
+                        <div class="dropdown show">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Choose a file
+                            </a>
+                          
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+
+                            <br><br><br>
+
+                            <form action="/action_page.php">
+                                <input class="btn btn-primary" type="submit">
+                            </form>
+
+                          </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card rounded shadow-sm border-0">
+                    <div class="card-body">
+                      <h5 class="card-title">How does it work</h5>
+                      <p class="card-text">Here we can talk about all the preprocessing steps we are doing. We need to add some content here. So we can tell what we are doing in the backend.(content tbd)
+                    </p>
+                      
+                    </div>
+                  </div>
                 </div>
               </div>
 
-        <br>
 
-        <form action="/action_page.php">
-            <input class="btn btn-primary" type="submit">
-        </form>
+
+
+
+
+
+
 
         </div>
 
